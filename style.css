@@ -17,3 +17,19 @@ body {
     background-color: black;
     margin: 20px auto 0 auto;
 }
+
+#buttonstyle {
+    border: none; 
+    background-color: white;
+    border-radius: 100%;
+    padding: 50px;
+    margin: 5px;
+}
+
+.buttonbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
