@@ -37,3 +37,14 @@ function operate(operator, varOne, varTwo) {
         return divide(varOne, varTwo)
     }
 }
+
+const calculatorDisplay = document.getElementById("calculatorDisplay");
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+        const buttonValue = button.value;
+
+        calculatorDisplay.textContent += buttonValue;
+    });
+});
