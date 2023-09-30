@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #d1d1d1;
+    font-family: Helvetica;
 }
 
 .calculatorBody {
@@ -17,6 +18,10 @@ body {
     background-color: black;
     margin: 20px auto 0 auto;
     color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 48px;
 }
 
 #buttonstyle {

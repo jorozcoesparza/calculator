@@ -40,10 +40,12 @@ function operate(operator, varOne, varTwo) {
 
 const calculatorDisplay = document.getElementById("calculatorDisplay");
 const buttons = document.querySelectorAll("button");
+let clickedValue = "";
 
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
         const buttonValue = button.value;
+        clickedValue = buttonValue;
 
         calculatorDisplay.textContent += buttonValue;
     });
